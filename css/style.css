@@ -665,3 +665,14 @@ body {
     }
   }
 }
+
+
+@media (max-width: 576px) {
+  .salary {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+    white-space: unset;
+  }
+  
+}

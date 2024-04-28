@@ -146,7 +146,7 @@ function createJobItem(job) {
           <h5 class="mb-3">${job.job_title}</h5>
           <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>${job.job_location}, Japan</span>
           <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>${job.mode}</span>
-          <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>${job.salary}</span>
+          <span class="text-truncate salary me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>${job.salary}</span>
         </div>
       </div>
       <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
@@ -273,7 +273,7 @@ function handleJobItemClick(job) {
               <h3 class="mb-3">${job.job_title}</h3>
               <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>${job.job_location}</span>
               <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>${job.mode}</span>
-              <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>${job.salary}</span>
+              <span class="text-truncate salary me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>${job.salary}</span>
             </div>
           </div>
 
