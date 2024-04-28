@@ -12536,3 +12536,18 @@ fieldset:disabled .btn {
     display: none !important
   }
 }
+
+
+@media (max-width: 576px) {
+  .btn {
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+  .header-carousel .owl-nav .owl-prev, .header-carousel .owl-nav .owl-next{
+    display: none !important;
+  }
+  .button-conatiner{
+    display: flex;
+  
+  }
+}
