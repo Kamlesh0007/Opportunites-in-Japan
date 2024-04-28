@@ -12550,4 +12550,10 @@ fieldset:disabled .btn {
     display: flex;
   
   }
+ .map-container iframe{
+width: 100%;
+ }
+ .contact-container div div{
+  padding: 0!important;
+ }
 }
