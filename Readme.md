@@ -21,7 +21,7 @@ The source code for the **Opportunities in Japan** web application is organized 
 - **main.js**: The JavaScript file containing the logic for fetching job data, rendering job items, handling user interactions, and navigating between pages.
 - **job-detail.html**: The HTML file for displaying detailed information about a specific job.
 - **job-detail.js**: The JavaScript file containing the logic for displaying job details and handling user interactions on the job detail page.
-- **api.js**: The JavaScript file containing API-related functions, including fetching job data and enabling multilingual support using the Google Translate API.
+
 
 ## **APIs Used**
 
